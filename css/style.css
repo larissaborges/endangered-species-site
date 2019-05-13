@@ -1,0 +1,14 @@
+body, h1, h2, ul, li, p, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+}
+.ul {
+    list-style: none;
+}
+.li {
+    list-style: none;
+}
+.img {
+    height: 100px;
+    width: 70px;
+}
