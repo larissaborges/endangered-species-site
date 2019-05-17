@@ -11,9 +11,6 @@ body, h1, h2, ul, li, p, dl, dt, dd {
     list-style: none;
     
 }
-li{
-    list-style: none;
-}
 a{
     display: flex;
     padding: 15px;
@@ -129,14 +126,22 @@ flex-direction: column;
     width: 50%; 
     margin-bottom: 50px;
 }
-.contato-footer{
-    background-color: #c6c6c6;
 
+.contato-footer {
+    display: flex;
+    background: #222;
+    color: darkgray;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    justify-content: space-between;
 }
 .contato-footer ul li{
-    padding: 5px;
-   
-    text-transform: uppercase;
-    margin-left: 5px;
+    margin: 5px;
+    list-style: none;
+}
+.copy {
+    display: flex;
+    align-items: flex-end;
 }
 
