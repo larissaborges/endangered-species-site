@@ -74,7 +74,7 @@ body{
         margin-top: 30px;
     }
     .flex-section.faq{
-        background: #c6c6c6;
+        background: #eaf7ef;
         margin-top: 70px;
     }
 .flex-section.faq h1{
@@ -82,10 +82,10 @@ body{
     padding: 15px;
     margin: 15px;
     text-decoration: none;
-    font-size: 80px;
+    font-size: 70px;
     text-transform: uppercase;
     color: #222;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
@@ -97,7 +97,7 @@ body{
    
 }
 .faq-lista dd{
-    font-size: 15px;
+    font-size: 20px;
     margin: 10px;
     padding: 10px;
     color: #222;
@@ -105,5 +105,38 @@ body{
 dl{
     margin: 15px;
 }
+.flex-section.contato{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.flex-section.contato h1{
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.flex-section.contato input{
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 50%;
+}
+.flex-section.contato textarea{
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+    width: 50%; 
+    margin-bottom: 50px;
+}
+.contato-footer{
+    background-color: #c6c6c6;
 
+}
+.contato-footer ul li{
+    padding: 5px;
+   
+    text-transform: uppercase;
+    margin-left: 5px;
+}
 
