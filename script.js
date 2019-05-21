@@ -19,3 +19,4 @@ function InitScrollSuave() {
 
     });
 }
+InitScrollSuave();
